@@ -1,0 +1,17 @@
+.cardContainer{
+   margin: 20px;
+}
+
+.card{
+    margin: 30px;
+    padding: 20px, 0;
+}
+
+button{
+    background-color: rgb(236, 205, 168);
+    height: 30px;
+    width: 50%;
+    bottom: 30px;
+    border: none;
+    cursor: pointer;
+}
