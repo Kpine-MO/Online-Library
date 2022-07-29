@@ -12,7 +12,7 @@ function Nav() {
        <div className='rightnav'>
          <Link to="/">Home</Link>
          <Link to="/library">Library</Link>
-         <Link to="/donations">Donations</Link>
+         <Link to="/donations">Comments</Link>
          <button>
             <DehazeIcon/>
          </button>

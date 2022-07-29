@@ -1,5 +1,5 @@
 .landingPage{
-    background-image: url(../assets/images/pexels-pixabay-256559.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../assets/images/pexels-pixabay-256559.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,6 +9,52 @@
 }
 
 h1{
-    color: rgba(231, 178, 137,0.9);
-    text-align: center;
+    color: #c38b5f;
+    padding-top: 200px;
+    font-size: 900;
+    
 }
+
+.homebtn{
+    width: 140px;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.colored{
+    background-color: #c38b5f;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #c38b5f;
+    transition: 1s;
+}
+
+.colored:hover{
+    background-color: transparent;
+}
+
+.notColored{
+    border: 1px solid #c38b5f;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.notColored:hover{
+    background-color: #c38b5f;
+}
+
+
+
+
+
+
+
+
+
+
+

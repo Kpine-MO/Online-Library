@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import React from "react";
 import Library from "./components/Library";
 import Donations from "./components/Donations";
+import BookDetails from "./components/BookDetails";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
          <Routes>
          <Route exact path='/' element={<Home/>}/>
          <Route exact path='/library' element={<Library/>}/>
+         <Route exact path='/BookDetails/:id' element={<BookDetails/>}/>
          <Route exact path='/donations' element={<Donations/>}/>
          </Routes>
       </Router>

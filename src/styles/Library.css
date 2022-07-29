@@ -5,3 +5,61 @@
     padding-top: 90px;
     padding-bottom: 30px;
 }
+
+.search{
+    position: absolute;
+    top: 100px;
+}
+
+.search input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e7b289;
+    position: fixed;
+    right: 100px;
+    outline: none;
+    padding-left: 15px;
+}
+
+.search input::placeholder{
+    padding: 10px;
+    margin: 10px;
+}
+
+.zoomGlass{
+    border: 2px solid #e7b289;
+    right: 60px;
+    top: 102px;
+    height: 21px;
+    position: fixed;
+    padding: 2px;
+    color: aliceblue;
+    background-color: #e7b289;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
