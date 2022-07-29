@@ -1,6 +1,8 @@
 .header{
     font-size: small;
     font-weight: bold;
+    color: #c38b5f;
+    padding-top: 50px;
 }
 
 .cmflex{
@@ -11,6 +13,8 @@
 .cmflexsmall{
     font-size: smaller;
     font-weight: lighter;
+    color: #c38b5f;
+    padding-top: 50px;
 }
 
 .comments{
@@ -46,10 +50,19 @@
     border-radius: 10px;
 }
 
+.likeBtn{
+    text-transform: capitalize;
+    color: #dd782a;
+    background-color: lightgrey;
+    border: none;
+}
+
 .xbtn{
     height: 20px;
     margin-top: 20px;
     background-color: #c38b5f;
+    border: none;
+    outline: none;
 }
 .commentInput-btn{
     height: 40px;
@@ -67,8 +80,19 @@
 }
 
 .comment-form{
-    margin: 20px;
+    margin: 80px 30px;
+
 }
+
+.search, .zoomGlass{
+    top: 60px;
+    
+}
+
+.static{
+    width: 3500px;
+}
+
 
 
 

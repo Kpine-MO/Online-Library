@@ -27,8 +27,8 @@ function CommentCard({ name,review,content,liky,id,onDeleteComment,item}) {
                 <h4>{name} <b>rated it</b> <i>{review}</i></h4>
                 <button onClick={deleteComment} className='xbtn'>X</button>
             </div>
-            <p>{content}</p>
-             {like}  <button style={{margin:10}} onClick={addLikes}>likes</button>
+            <p className='theme'>{content}</p>
+            <span> {like} </span> <button style={{margin:10}} onClick={addLikes}className="likeBtn">likes</button>
         </div>
   )
 }

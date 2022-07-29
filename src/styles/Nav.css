@@ -4,7 +4,7 @@
     background-color: #c38b5f;
     display: flex;
     flex-direction: row;
-    /* position: fixed;    */
+    position: fixed;   
   }
   
   .navbar .leftnav {

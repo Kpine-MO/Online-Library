@@ -30,7 +30,7 @@ function Library() {
            </div>
         </div>
         {
-          allBooks.filter((result) =>{
+          allBooks.filter((result) =>  {
             if(setSearchQuery===""){
               return result
             } else if(result.title.toLowerCase().includes(searchQuery.toLocaleLowerCase())){
