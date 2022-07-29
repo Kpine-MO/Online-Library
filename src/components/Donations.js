@@ -38,7 +38,7 @@ function Donations() {
     
       <DonationForm onAddComment={handleAddComment}/>
     <div className='static'>
-        <div className='cmright '>
+      <div className='cmright '>
          <div className='search'>
              <input type="text" placeholder="Search by commentee..." onChange={event => setSearchQuery(event.target.value)} value={searchQuery} className="show"/>
              <div className='zoomGlass'>
@@ -71,8 +71,8 @@ function Donations() {
           />
           })
         }
-      </div>
     </div>
+  </div>
 
     </div>
   )
