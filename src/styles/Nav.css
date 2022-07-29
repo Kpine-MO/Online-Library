@@ -58,6 +58,7 @@
     width: 70px;
     margin: 5px;
   }
+
   @media only screen and (max-width: 900px) {
     .navbar .rightnav a {
       width: 70px;
@@ -91,3 +92,4 @@
       display: none;
     }
   }
+
