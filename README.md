@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# ONLINE LIBRARY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# By 
+ -Chrispine Ochieng
 
-## Available Scripts
+## Screenshot
 
-In the project directory, you can run:
+![images](./src/assets/images/readME_images/Screenshot%20from%202022-07-30%2000-13-01.png)
+![images](./src/assets/images/readME_images/Screenshot%20from%202022-07-30%2000-13-28.png)
+![images](./src/assets/images/readME_images/Screenshot%20from%202022-07-30%2000-13-43.png)
+![images](./src/assets/images/readME_images/Screenshot%20from%202022-07-30%2000-13-55.png)
 
-### `npm start`
+## Table Of Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-[Description](#description)
+-[Features](#features)
+-[Requirements](#requirements)
+-[Tecnology Used](#technology-used)
+-[Github Link](#live-link)
+-[Licence](#licence)
+-[Author's Info](#author's-info)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Description
 
-### `npm test`
+<p>This is an App that holds a collection of books with their details e.g author, price, name and a synopsis and  also enables on to read the free books available </p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Go Back to the top](#online library)
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As a user of this programm you will be able to :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Interact with a page that displays all the books in our data base.
+2. Interact with a  search area  filters through the displayed books by title.
+3. Interact with a  comment page that displys all comments by the users.
+4. Interact with a  post area to post additional comments.
+5. Interact with a  button to delete comments
+6. Interact with a  search area to filter throw comments.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Go Back to the top](#online library)
 
-### `npm run eject`
+### Requirement
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Access to a computer
+2. Access to internet
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Go Back to the top](#online library)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Technology Used
+1. HTML - Which was used to delope the structure of the page.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. CSS - Which was used to style the user interface.
 
-## Learn More
+3. Javascript- Which was used to make the page interactive.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. React-js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Go Back to the top](#online library)
 
-### Code Splitting
+## Github Link
+ -Clink this link to view the github link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+https://github.com/Kpine-MO/Online-Library
 
-### Analyzing the Bundle Size
+ [Go Back to the top](#online mentoring platform)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ ### LIcence
 
-### Making a Progressive Web App
+ MIT License
+Copyright (c) [2019] [Chrispine Ochieng]
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Go Back to the top](#online mentoring platform)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Author's Info
+Email - chrispine.oduor@student.moringaschool.com
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Go Back to the top](#online library)
