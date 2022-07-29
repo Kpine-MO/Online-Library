@@ -24,7 +24,7 @@ function CommentCard({ name,review,content,liky,id,onDeleteComment,item}) {
   return (
          <div className='cmdisplay'>
             <div className='cmflex'>
-                <h4>{name} <b>rated it</b> <i>{review}</i></h4>
+                <h4>{name} <b>rated it</b> <i>{review} out of 5</i></h4>
                 <button onClick={deleteComment} className='xbtn'>X</button>
             </div>
             <p className='theme'>{content}</p>

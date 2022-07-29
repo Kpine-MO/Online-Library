@@ -1,11 +1,11 @@
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
-import './App.css';
-import Nav from "./components/Nav";
-import Home from "./components/Home";
+import '../styles/App.css';
+import Nav from "./Nav";
+import Home from "./Home";
 import React from "react";
-import Library from "./components/Library";
-import Donations from "./components/Donations";
-import BookDetails from "./components/BookDetails";
+import Library from "./Library";
+import Donations from "./Donations";
+import BookDetails from "./BookDetails";
 
 
 function App() {

@@ -11,7 +11,7 @@ function DonationForm({onAddComment}) {
   const handleSubmit = (event) => {
     event.preventDefault()
 
-    const comments = {title,name,review,content}
+    const comments = {title,review,name,content}
 
 
     fetch("http://localhost:5004/comments", {
@@ -40,15 +40,15 @@ function DonationForm({onAddComment}) {
         name="title" type="text" 
         required placeholder="title" />
        <input className='commentInput'
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-        name="author" type="text" 
-        required  placeholder="name" />
-       <input className='commentInput'  
         value={review}
         onChange={(e) => setReview(e.target.value)}
         name="review" type="text" 
-        required placeholder="rate out of 5" />
+        required  placeholder="rate out of 5" />
+       <input className='commentInput'  
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        name="name" type="text" 
+        required placeholder="name" />
        <textarea className='commentInput'  
         value={content}
         onChange={(e) => setContent(e.target.value)}

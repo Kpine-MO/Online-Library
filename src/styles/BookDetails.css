@@ -1,0 +1,76 @@
+.flex{
+    display: flex;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+
+
+.title{
+    position: absolute;
+    left: 10px;
+    border-bottom: 2px solid #c38b5f;
+    padding-bottom: 2px;
+    border-left: 2px dotted #c38b5f;
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: gray;
+}
+
+.right{
+    border: 2px solid gray;
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    border-radius: 5px;
+    padding: 30px 10px;
+    margin: 10px;
+}
+
+.author{
+    position: absolute;
+    left: 10px;
+    border-bottom: 2px solid #c38b5f;
+    border-left: 2px dotted #c38b5f;
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: gray;
+}
+
+.description{
+    text-transform: capitalize;
+    position: absolute;
+    left: 10px;
+    color: #c38b5f;
+    padding-left: 10px;
+}
+
+.price{
+    position: absolute;
+    left: 10px;
+    border-bottom: 2px solid #c38b5f;
+    border-left: 2px dotted #c38b5f;
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: gray;
+}
+
+.review{
+    color: gray;
+    position: absolute;
+    left: 10px;
+    border-bottom: 2px solid #c38b5f;
+    border-left: 2px dotted #c38b5f;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
