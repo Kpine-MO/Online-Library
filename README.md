@@ -24,7 +24,7 @@
 
 <p>This is an App that holds a collection of books with their details e.g author, price, name and a synopsis and  also enables on to read the free books available </p>
 
-[Go Back to the top](#online library)
+[Go Back to the top](#online-library)
 
 ## Features
 
@@ -37,14 +37,14 @@ As a user of this programm you will be able to :
 5. Interact with a  button to delete comments
 6. Interact with a  search area to filter throw comments.
 
-[Go Back to the top](#online library)
+[Go Back to the top](#online-library)
 
 ### Requirement
 
 1. Access to a computer
 2. Access to internet
 
-[Go Back to the top](#online library)
+[Go Back to the top](#online-library)
 
 # Technology Used
 1. HTML - Which was used to delope the structure of the page.
@@ -62,7 +62,7 @@ As a user of this programm you will be able to :
 
 https://github.com/Kpine-MO/Online-Library
 
- [Go Back to the top](#online mentoring platform)
+ [Go Back to the top](#online-libray)
 
  ### LIcence
 
@@ -84,10 +84,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#online mentoring platform)
+[Go Back to the top](#online-library)
 
 
 # Author's Info
 Email - chrispine.oduor@student.moringaschool.com
 
-[Go Back to the top](#online library)
+[Go Back to the top](#online-library)
