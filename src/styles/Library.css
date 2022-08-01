@@ -16,27 +16,28 @@
     width: 300px;
     border-radius: 10px;
     border: none;
-    background-color: #e7b289;
     position: fixed;
     right: 100px;
     outline: none;
     padding-left: 15px;
+    border: 1px solid #0b6d88;
 }
 
 .search input::placeholder{
     padding: 10px;
     margin: 10px;
+    color: #0b6d88;
 }
 
 .zoomGlass{
-    border: 2px solid #e7b289;
+    border: 1px solid #0b6d88;
     right: 60px;
-    top: 102px;
+    top: 109px;
     height: 21px;
     position: fixed;
-    padding: 2px;
-    color: aliceblue;
-    background-color: #e7b289;
+    padding: 3px;
+    color: #0b6d88;
+    border-bottom: 5px solid #0b6d88;
 }
 
 .show{

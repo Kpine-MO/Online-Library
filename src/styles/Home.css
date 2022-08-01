@@ -9,7 +9,7 @@
 }
 
 h1{
-    color: #c38b5f;
+    color: #0b6d88;
     padding-top: 200px;
     font-size: 900;
     
@@ -27,10 +27,10 @@ h1{
 }
 
 .colored{
-    background-color: #c38b5f;
+    background-color: #0b6d88;
     padding: 10px 0;
     text-align: center;
-    border: 1px solid #c38b5f;
+    border: none;
     transition: 1s;
 }
 
@@ -39,10 +39,12 @@ h1{
 }
 
 .notColored{
-    border: 1px solid #c38b5f;
+    border: 1px solid #0b6d88;
     transition: 1s;
     transition-delay: 0.5s;
+    color: #0bc5f8;
 }
+
 
 .notColored:hover{
     background-color: #c38b5f;
