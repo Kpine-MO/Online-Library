@@ -15,10 +15,10 @@ function App() {
          <Nav/>
 
          <Routes>
-         <Route exact path='/' element={<Home/>}/>
-         <Route exact path='/library' element={<Library/>}/>
-         <Route exact path='/BookDetails/:id' element={<BookDetails/>}/>
-         <Route exact path='/donations' element={<Donations/>}/>
+           <Route exact path='/' element={<Home/>}/>
+           <Route exact path='/library' element={<Library/>}/>
+           <Route exact path='/BookDetails/:id' element={<BookDetails/>}/>
+           <Route exact path='/donations' element={<Donations/>}/>
          </Routes>
       </Router>
     </div>

@@ -17,6 +17,7 @@
 -[Requirements](#requirements)
 -[Tecnology Used](#technology-used)
 -[Github Link](#live-link)
+-[Walk Through Github Repo Link](#walk-through-github-repo-link)
 -[Licence](#licence)
 -[Author's Info](#author's-info)
 
@@ -58,11 +59,15 @@ As a user of this programm you will be able to :
 [Go Back to the top](#online library)
 
 ## Github Link
- -Clink this link to view the github link
+ -Click this link to view the github link
 
 https://github.com/Kpine-MO/Online-Library
 
  [Go Back to the top](#online-libray)
+### Walk Through Github Repo Link
+-Click this link to view the github link
+
+https://github.com/Kpine-MO/Online_library_README
 
  ### LIcence
 
