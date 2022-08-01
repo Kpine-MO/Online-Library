@@ -7,11 +7,24 @@
     padding: 20px, 0;
 }
 
+h3, p, .btn{
+    color: #0b6d88;
+}
+
 .btn{
-    background-color: rgb(236, 205, 168);
+    text-decoration: none;
     height: 30px;
     width: 50%;
     bottom: 30px;
     border: none;
     cursor: pointer;
+    padding: 5px;
+    border: 1px solid #0b6d88;
+    border-radius: 7px;
+    transition: 1s;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #0b6d88;
 }

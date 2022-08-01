@@ -22,7 +22,9 @@ function Library() {
 
   return (
     <div className='Lib'>
-        {/* {allBooks} */}
+        <div className='filter'>
+          
+        </div>
         <div className='search'>
           {show ?  <input type="text" placeholder="SEARCH AREA..." onChange={event => setSearchQuery(event.target.value)} value={searchQuery} className="show"/> : null}
            <div className='zoomGlass' onClick={handleSearchArea}>

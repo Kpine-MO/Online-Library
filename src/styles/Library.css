@@ -48,6 +48,15 @@
     display: none;
 }
 
+.filter{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    top: 50px;
+    position: fixed;
+}
+
 
 
 

@@ -1,7 +1,7 @@
 .header{
     font-size: small;
     font-weight: bold;
-    color: #c38b5f;
+    color: #0b6d88;
     padding-top: 50px;
 }
 
@@ -13,7 +13,7 @@
 .cmflexsmall{
     font-size: smaller;
     font-weight: lighter;
-    color: #c38b5f;
+    color: #0b6d88;
     padding-top: 50px;
 }
 
@@ -28,14 +28,14 @@
 
 .cmright{
     margin: 0 50px;
-    border: 3px solid #c38b5f;
+    border: 3px solid #0b6d88;
     padding: 50px;
     
 }
 
 .cmdisplay h4{
    font-size: medium;
-   color: #c38b5f;
+   color: #0b6d88;
    font-weight: lighter;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .cmdisplay{
-    border: 2px solid #c38b5f;
+    border: 2px solid #0b6d88;
     margin: 20px 0;
     padding: 10px;
     border-radius: 10px;
@@ -52,29 +52,29 @@
 
 .likeBtn{
     text-transform: capitalize;
-    color: #dd782a;
+    color: #0b6d88;
     background-color: lightgrey;
-    border: none;
+    border: 1px solid #0b6d88;
 }
 
 .xbtn{
     height: 20px;
     margin-top: 20px;
-    background-color: #c38b5f;
+    background-color: #0b6d88;
     border: none;
     outline: none;
 }
 .commentInput-btn{
     height: 40px;
     width: 100%;
-    background-color: #c38b5f;
+    background-color: #0b6d88;
     outline: none;
     border: none;
     text-transform: capitalize;
 }
 
 .commentInput{
-    border: 1px solid #c38b5f;
+    border: 1px solid #0b6d88;
     padding: 5px;
     outline: none;
 }
