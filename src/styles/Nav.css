@@ -3,18 +3,62 @@
   height: 50px;
   background-color: white;
   display: flex;
-  flex-direction: row;
+  justify-content: left;
   position: fixed; 
-  border-bottom: 2px solid #0b6d88;    
+  z-index: 100;
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
   }
   
-  .navbar .leftnav {
+  /* .navbar .leftnav {
     flex: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     padding-left: 150px;
+  } */
+
+  .logo{
+    background-image: url(../assets/images/Free_Sample_By_Wix-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
+
+.access{
+  width: 70px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  font-family: montserrat;
+  font-weight: bolder;
+  font-size: xx-small;
+  cursor: pointer;
+
+}
+
+.login{
+  margin-left: 20px;
+  background-color: transparent;
+  border: 1px solid #ea4c89;
+  color: #ea4c89;
+}
+
+.signup{
+  background-color: #ea4c89;
+  color: white;
+}
+
+.btnLeft{
+  position: absolute;
+  right: 60px;
+  top: 5px;
+  bottom: 10px;
+}
   
   .navbar .leftnav img {
     width: 70px;
@@ -28,15 +72,20 @@
   }
   
   .navbar a {
-    color: #0b6d88;
+    color: rgb(114, 114, 114);
     text-decoration: none;
     margin: 20px;
     background-color: transparent;
-    background-color: rgb(224, 224, 224);
     border-radius: 50%;
     padding: 5px;
     text-align: center;
-    width: 30px;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+  }
+  .navbar a:nth-child(5){
+    color: #ea4c89;
+    text-transform: capitalize;
   }
 
   .comment{
@@ -69,6 +118,8 @@
     width: 70px;
     margin: 5px;
   }
+
+ 
 
   @media only screen and (max-width: 900px) {
     .navbar .rightnav a {

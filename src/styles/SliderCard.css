@@ -1,0 +1,31 @@
+.SliderCard{
+    height: 270px;
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.imageCard{
+   width: 120px;
+   height: 200px;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+
+.titleHeadersSlider{
+    margin: 10px auto;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: small;
+}
+
+.authorCardSlider{
+    color: #ea4c89;
+    font-size: small;
+}
+
+p{
+    font-size: small;
+}

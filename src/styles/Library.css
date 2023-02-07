@@ -20,24 +20,22 @@
     right: 100px;
     outline: none;
     padding-left: 15px;
-    border: 1px solid #0b6d88;
+    border: 1px solid black;
 }
 
 .search input::placeholder{
     padding: 10px;
     margin: 10px;
-    color: #0b6d88;
+    color: #ea4c89;
 }
 
 .zoomGlass{
-    border: 1px solid #0b6d88;
     right: 60px;
-    top: 109px;
     height: 21px;
     position: fixed;
     padding: 3px;
-    color: #0b6d88;
-    border-bottom: 5px solid #0b6d88;
+    color: #ea4c89;
+    padding-top: 8px;
 }
 
 .show{
@@ -51,7 +49,6 @@
 .filter{
     height: 50px;
     width: 100%;
-    background-color: gray;
     position: absolute;
     top: 50px;
     position: fixed;

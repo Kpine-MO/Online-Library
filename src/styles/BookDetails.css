@@ -1,70 +1,233 @@
 .flex{
     display: flex;
-    padding-top: 90px;
-    padding-left: 30px;
 }
 
-
-
-.title{
-    position: absolute;
-    left: 10px;
-    border-bottom: 2px solid #c38b5f;
-    padding-bottom: 2px;
-    border-left: 2px dotted #c38b5f;
-    padding-left: 10px;
-    text-transform: capitalize;
-    color: gray;
+.detailsContainer{
+    width: 80%;
+    height: 100vh;
+    padding-top: 100px;
+    margin: 0px auto;
+    text-align: left;
 }
 
-.right{
-    border: 2px solid gray;
-    position: relative;
-    width: 100%;
-    overflow: auto;
-    border-radius: 5px;
-    padding: 30px 10px;
-    margin: 10px;
+.detailsTitle, .buyBook{
+    color: rgb(13, 44, 92);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .author{
-    position: absolute;
-    left: 10px;
-    border-bottom: 2px solid #c38b5f;
-    border-left: 2px dotted #c38b5f;
-    padding-left: 10px;
-    text-transform: capitalize;
-    color: gray;
+    font-weight: lighter;
+    font-size: small;
+    color: #a32253;
 }
 
-.description{
+.by{
+    color: gray;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    margin-top: 50px;
+}
+
+
+.numberOfRev{
+    font-size: small;
     text-transform: capitalize;
+    color: gray;
+    font-weight: lighter;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.writeARev{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin-top: 4px;
+    color: rgb(17, 58, 121);
+}
+
+.reviewH6{
     position: absolute;
-    left: 10px;
-    color: #c38b5f;
-    padding-left: 10px;
+    margin-top: -30px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
 }
 
 .price{
-    position: absolute;
-    left: 10px;
-    border-bottom: 2px solid #c38b5f;
-    border-left: 2px dotted #c38b5f;
-    padding-left: 10px;
-    text-transform: capitalize;
-    color: gray;
+    margin-top: -45px;
 }
 
-.review{
-    color: gray;
-    position: absolute;
-    left: 10px;
-    border-bottom: 2px solid #c38b5f;
-    border-left: 2px dotted #c38b5f;
-    padding-left: 10px;
+.retail{
+    color: rgb(17, 58, 121);
     text-transform: capitalize;
+    font-family: sans-serif;
+    margin-top: -60px;
+    font-weight: 400;
 }
 
+.cartBtn{
+    width: 140px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #ea4c89;
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    border-radius: 6px;
+    margin-top: 0px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.btnContent{
+    margin-right: 10px;
+}
+
+.cart{
+    margin-top: -4px;
+    position: absolute;
+}
+
+.wishlist{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: rgb(13, 44, 92);
+    font-size: small;
+    display: flex;
+    margin-top: 10px;
+}
+
+.addWishList{
+    margin-top: 0px;
+    font-size: 0.99em;
+}
+
+.available{
+    width: 100%;
+    height: 50px;
+    margin-left: 260px;
+    margin-top: -60px;
+    position: absolute;
+}
+
+.availableContent{
+    display: flex;
+}
+
+.stockH6{
+    text-transform: capitalize;
+    margin-top: 2px;
+    padding-left: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: rgb(13, 44, 92);
+}
+
+.shipping{
+    margin-top: -20px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    color: rgb(13, 44, 92);
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 0.77em;
+}
+
+.free{
+    color: #ea4c89;
+    font-size: 1.1em;
+}
+
+.store{
+    color: green;
+    text-transform: capitalize;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-top: -15px;
+}
+
+.transyFlex{
+    display: flex;
+}
+
+.storeH6, .deliveryH6{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.deliveryH6{
+    text-transform: capitalize;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.delivery{
+    color: rgb(13, 44, 92);
+}
+
+.socialMedia{
+    display: flex;
+    margin: 0 auto;
+    margin-top: -5px;
+    width: 75%;
+    margin-left: 16px;
+    justify-content: space-between;
+}
+
+.overView{
+    text-transform: capitalize;
+    color: rgb(13, 44, 92);
+    border-bottom: 2px solid rgb(13, 44, 92);
+    width: 110%;
+    margin-left: -4%;
+    padding-bottom: 10px;
+    font-size: large;
+    margin-top: 50px;
+}
+
+.socialLink{
+    padding: 3px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    display: flex;
+    width: 65px;
+    color: white;
+    height: 15px;
+    padding-bottom: 6px;
+    justify-content: center;
+}
+
+.description{
+    color: rgb(17, 58, 121);
+    font-family: sans-serif;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.socialH6{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.blue{
+    background-color: rgba(58,121,222,255);
+}
+
+.skyBlue{
+    background-color: skyblue;
+}
+
+.red{
+    background-color: red;
+}
 
 
 

@@ -3,12 +3,59 @@
 }
 
 .card{
+    height: 380px;
+    width: 250px;
     margin: 30px;
-    padding: 20px, 0;
+    padding: 5px;
+    border-radius: 12px;
+    padding-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 h3, p, .btn{
     color: #0b6d88;
+}
+
+p{
+    color: grey;
+    margin-top: -10px;
+}
+
+.authorCard{
+    color: #ea4c89;
+    font-size: small;
+}
+
+h3{
+    font-family: montserrat;
+    font-size: medium;
+    font-weight: lighter;
+    color: black;
+}
+
+.infoBtn{
+    color:white;
+    width: 20px;
+    height: 20px;
+    background-color: #ea4c89;
+    border-bottom-left-radius: 12px;
+}
+
+.commentsBtn{
+    color: #ea4c89;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: -1px;
+    border: none;
+    padding-top: 5px;
+    width: 250px;
 }
 
 .btn{
@@ -27,4 +74,12 @@ h3, p, .btn{
 .btn:hover{
     color: white;
     background-color: #0b6d88;
+}
+
+.titleHeaders{
+    margin: 10px auto;
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

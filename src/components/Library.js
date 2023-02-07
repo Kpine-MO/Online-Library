@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import Card from './Card'
 import "../styles/Library.css"
-import ZoomOutIcon from '@mui/icons-material/ZoomOut';
+import {BsSearch} from 'react-icons/bs';
 
 function Library() {
   
@@ -28,7 +28,7 @@ function Library() {
         <div className='search'>
           {show ?  <input type="text" placeholder="SEARCH AREA..." onChange={event => setSearchQuery(event.target.value)} value={searchQuery} className="show"/> : null}
            <div className='zoomGlass' onClick={handleSearchArea}>
-             <ZoomOutIcon/>
+             <BsSearch size={20}/>
            </div>
         </div>
         {
